@@ -1,0 +1,20 @@
+{
+  "name": "discord-moderation-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord multifonction : modération, gestion des rôles, des salons et des membres.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "dev": "node --watch src/index.js",
+    "check": "node src/check.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "dotenv": "^16.6.1"
+  }
+}
